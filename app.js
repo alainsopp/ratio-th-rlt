@@ -36,5 +36,3 @@ function addRatio() {
         log_event(error)
     }
 }
-
-setTimeout(() => addRatio(), 5000)
