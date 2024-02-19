@@ -1,0 +1,45 @@
+.button {    
+    border-radius: 3px;
+    background-color:#03e1e4;
+    font-family: 'JetBrains Mono';
+    padding:10px;
+    border:none;
+    color:#121212;
+    font-weight: bold;     
+}
+.button:hover{
+    background-color:#3dddf2;
+    border:solid white 1px;
+}
+.button:active{
+    background-color: rgb(93, 132, 159);
+}
+.button::before {
+    content: "\1F885  ";
+}
+html {
+    background-color:#343a40;
+    color:white;
+    font-family: 'JetBrains Mono',Consolas;
+    height: 175px;
+}
+input {
+    border-radius:3px;
+    background-color:#25202a;
+    color:white;
+    font-family: 'JetBrains Mono', Consolas;
+    border-color:#25202a;
+}
+input:active {
+    border-radius:3px;
+    background-color:rgb(93, 132, 159);;
+    color:white;
+    font-family: 'JetBrains Mono', Consolas;
+    border-color:#25202a;
+}
+table {
+    table-layout: auto;    
+}
+table td {
+    padding-left:3px;
+}
